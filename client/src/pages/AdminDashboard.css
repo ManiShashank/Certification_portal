@@ -1,0 +1,121 @@
+.admin-dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.admin-header h1 {
+  font-size: 2.2rem;
+  color: var(--text-dark);
+  margin: 0 0 0.4rem 0;
+}
+
+.admin-header p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.btn-logout {
+  background: white;
+  border: 1px solid var(--border-color);
+  color: var(--danger-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-logout:hover {
+  background: #fee2e2;
+  border-color: #fecaca;
+}
+
+.admin-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.admin-table th {
+  background-color: #f8fafc;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-table tr:hover {
+  background-color: #f8fafc;
+}
+
+.fw-600 {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.platform-badge {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.platform-badge.nptel {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.platform-badge.udemy {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.platform-badge.coursera {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.link-proof {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.link-proof:hover {
+  text-decoration: underline;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
